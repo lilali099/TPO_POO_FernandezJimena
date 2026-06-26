@@ -33,7 +33,7 @@ Donde el medallero hace referencia al medallero por país por ende tiene la part
 Además se suma una opción extra denominada "Gestión Antidopong" que, con la participación de las clases Antidoping y Laboratorio nos permite verificar que atletas dan positivo en antidoping y cuáles no, de ser positivo el dopaje se le requitarán las medallas obtenidas.
 
 Se agrega que se implementa polimorfismo al generar una clase Marca con clases subhijas que implementan de diversa manera el método definido y se implementan recorridos de listas con Iterator, uso de excepciones y de enum cuando se condero necesario.
-En este proyecto se trabajo inicialmente con un menú por consulta para pasar luego a una interfaz gráfica de usuario (GUI) usando Java Swing. Se crearon clases para cada opción presente en el anterior menú. Cada una se denominó Ventana + nombre.
+En este proyecto se trabajo inicialmente con un menú por consulta para pasar luego a una interfaz gráfica de usuario (GUI) usando Java Swing. Se crearon clases para cada opción presente en el anterior menú. Cada una se denominó Ventana + nombre. 
 
 Se hacen algunas correcciones con respecto a lo presentado en el diagrama UML, estas se detallan a continuación:
 -Se quitan las clases Clasificacion y Final que eran clases hijas de Competencia porque se considero que no es necesario establecerlas, ya que al utilizar Java Swing se puede ingresar el tipo de competencia requerida.
